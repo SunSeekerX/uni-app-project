@@ -89,14 +89,21 @@ yarn pkg:sort
 ### 项目结构
 
 ```
+├── .husky
+│   ├── _
+│   └── pre-commit
+├── .vscode
+│   └── settings.json
+├── .yarn
+│   ├── plugins
+│   └── releases
 ├── apis
 │   ├── express.js
 │   └── index.js
 ├── config
-│   ├── cdev.config.js
 │   ├── default.js
+│   ├── dev.config.js
 │   ├── index.js
-│   ├── online.config.js
 │   ├── prod.config.js
 │   └── stage.config.js
 ├── constant
@@ -122,8 +129,16 @@ yarn pkg:sort
 │   ├── libs
 │   ├── request
 │   └── index.js
+├── .eslintignore
+├── .eslintrc.js
+├── .gitignore
+├── .prettierignore
+├── .prettierrc.yaml
+├── .stylelintignore
+├── .yarnrc.yml
 ├── App.vue
 ├── CHANGELOG.md
+├── README-uni.md
 ├── README.md
 ├── index.html
 ├── jsconfig.json
@@ -132,14 +147,13 @@ yarn pkg:sort
 ├── package.json
 ├── pages.json
 ├── stylelint.config.js
-├── uni.scss
-└── yarn.lock
+└── uni.scss
 ```
 
 **生成命令**
 
 ```shell
-tree -L 2 -I "node_modules" --dirsfirst
+tree -L 2 --gitignore --dirsfirst -a -I ".git"
 ```
 
 ### 你需要修改的信息
