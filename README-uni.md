@@ -10,7 +10,7 @@
 
 vue2 + vuex + eslint + prettier + stylelint + lint-staged + husky
 
-- 项目地址: [Github](https://github.com/SunSeekerX/uni-app-project-cli)
+- 项目地址: [Github](https://github.com/SunSeekerX/uni-app-project)
 - 博客地址: [https://yoouu.cn/](https://yoouu.cn/)
 - 当我们日复一日年复一年的搬砖的时候，你是否曾想过提升一下开发效率，如果一个通用的架构摆在你的面前，你还会选择自己搭架构么，但是搭建出一个好的架构并非易事，有多少人愿意选择去做，还有多少人选择努力去做好，可能寥寥无几，但是你今天看到的，正是你所想要的，一个真正能解决你开发新项目时最大痛点的架构工程，你不需要再麻木 Copy 原有旧项目的代码，只需改动少量代码就能得到想要的效果，你会发现开发新项目其实是一件很快乐的事。
 
