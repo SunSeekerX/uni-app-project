@@ -1,0 +1,67 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/find/find",
+      "style": {
+        "navigationBarTitleText": "发现"
+      }
+    },
+    {
+      "path": "pages/message/message",
+      "style": {
+        "navigationBarTitleText": "消息"
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8894AB",
+    "selectedColor": "#2979ff",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/images/tab-bar/home.png",
+        "selectedIconPath": "static/images/tab-bar/home-selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "static/images/tab-bar/find.png",
+        "selectedIconPath": "static/images/tab-bar/find-selected.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/images/tab-bar/message.png",
+        "selectedIconPath": "static/images/tab-bar/message-selected.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/images/tab-bar/mine.png",
+        "selectedIconPath": "static/images/tab-bar/mine-selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "uniIdRouter": {}
+}

@@ -1,0 +1,6 @@
+components/uni-*
+nativeplugins/
+unpackage/
+static/
+utils/libs/
+uni_modules
