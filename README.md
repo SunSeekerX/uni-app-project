@@ -72,7 +72,7 @@ yarn pkg:sort
 
 ## 项目亮点
 
-- 常用集成：[uView UI](https://www.uviewui.com/)、[windi-css-uni](https://github.com/SunSeekerX/uni-app-starter/tree/main/packages/windi-css-uni)、[utools](https://utools.yoouu.cn/)
+- 常用集成：[uView UI](https://www.uviewui.com/)、[limm-windi-css-uniapp](https://ext.dcloud.net.cn/plugin?id=8575)、[limm-utools](https://ext.dcloud.net.cn/plugin?id=8574)
 - 代码注释：项目内有非常完善的代码注释，对每个模块的作用做了仔细的说明
 - 代码统一：对项目中常见的代码进行了封装，或是封装到工具类中、或者封装到框架中，不追求过度封装，根据实际场景和代码维护性考虑，尽量保证同一个功能的代码在项目中不重复。
 - 敏捷开发：一个 App 大概率会出现的功能已经写好，对项目的敏捷开发起到了至关重要的作用，可用于新项目开发或者旧项目重构，可将开发周期缩短近一半的时间，并且后续不会因为前期的快速开发而留下成堆的技术遗留问题，万丈高楼平地起，uni-app-project-cli 属于基建工程，而在软件行业我们称之为技术中台。
