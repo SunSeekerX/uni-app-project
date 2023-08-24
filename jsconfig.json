@@ -5,9 +5,9 @@
     "paths": {
       "@/*": ["./*"]
     },
-    "types": ["@dcloudio/types", "miniprogram-api-typings", "mini-types"]
+    "skipLibCheck": true,
+    "types": ["node", "@dcloudio/types", "miniprogram-api-typings", "mini-types"]
   },
-  "typeAcquisition": {
-    "exclude": []
-  }
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
