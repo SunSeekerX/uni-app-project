@@ -13,6 +13,10 @@ export default {
 </script>
 
 <style lang="scss">
+// @import 'tailwindcss/base';
+// @import 'tailwindcss/components';
+// @import 'tailwindcss/utilities';
+
 @import '@/uni_modules/limm-windi-css-uniapp/index.scss';
 @import '@/uni_modules/uview-ui/index.scss';
 </style>

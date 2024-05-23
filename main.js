@@ -1,14 +1,7 @@
 import { mapState } from 'vuex'
 
-import utools from '@/uni_modules/limm-utools'
-import uView from '@/uni_modules/uview-ui'
-
 import App from './App'
-import store from './store/index' // Vuex
-import * as util from './utils/index' // 工具包
-import * as constant from './constant' // 常量
-import * as api from './apis' // Api
-import getEnv from './config/index' // 环境变量获取
+import uView from '@/uni_modules/uview-ui'
 
 // #ifndef VUE3
 import Vue from 'vue'
@@ -21,12 +14,6 @@ Vue.mixin({
   },
 })
 
-Vue.prototype.$util = util
-Vue.prototype.$utools = utools
-Vue.prototype.$store = store
-Vue.prototype.$constant = constant
-Vue.prototype.$api = api
-Vue.prototype.$getEnv = getEnv
 App.mpType = 'app'
 
 function isPromise(obj) {
@@ -56,7 +43,6 @@ try {
 
 const app = new Vue({
   ...App,
-  store,
 })
 app.$mount()
 // #endif
