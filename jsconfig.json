@@ -8,6 +8,6 @@
     "skipLibCheck": true,
     "types": ["node", "@dcloudio/types", "miniprogram-api-typings", "mini-types"]
   },
-  "include": ["src"],
+  "include": ["./"],
   "exclude": ["node_modules", "dist"]
 }
